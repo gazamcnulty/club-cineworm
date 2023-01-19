@@ -2,9 +2,24 @@ body {
     color: rgba(70, 16, 99, 0.964);
 }
 
-table {
-   
+h1 {
+    margin-left: 5px;
+    float: left;
 }
+
+#nav-bar {
+   margin-right: 5px;
+   margin-top: 5px;
+}
+
+#nav-bar, li {
+    text-align: right;
+    list-style: none;
+    display: inline;
+    margin-top: 10px;
+}
+
+
 
 #meeting {
     max-width: 25%;
