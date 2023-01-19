@@ -1,3 +1,7 @@
 body {
     color: #3ff;
 }
+
+#meeting {
+    max-width: 25%;
+}
