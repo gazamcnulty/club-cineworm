@@ -1,25 +1,41 @@
-body {
-    color: rgba(70, 16, 99, 0.964);
+
+#banner {
+    background: url('../images/cinema-seats.jpeg') no-repeat;
+    background-size: cover;
+    height: 300px;
+
+ }
+
+#emblem {
+    margin-left: 5px;
+    color: white;
+    float:left;
+    font-size: 200%;
+    background-color: grey;
+    margin-top: 60px;
 }
 
-h1 {
-    margin-left: 5px;
-    float: left;
-}
+
 
 #nav-bar {
-   margin-right: 5px;
-   margin-top: 5px;
+    right: 20px;
+    padding: 50px 0 50px 0;
 }
 
-#nav-bar, li {
-    text-align: right;
+#nav-bar li {
     list-style: none;
-    display: inline;
-    margin-top: 10px;
+    float: right;
+    font-size: 150%;
 }
 
+#nav-bar a {
+    color: white;
+    background-color: grey;
+}
 
+#welcome {
+    margin-top: 100px;
+}
 
 #meeting {
     max-width: 25%;
