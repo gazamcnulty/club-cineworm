@@ -10,7 +10,7 @@
     margin-left: 5px;
     color: white;
     float:left;
-    font-size: 200%;
+    font-size: 225%;
     background-color: grey;
     margin-top: 60px;
 }
@@ -26,6 +26,7 @@
     list-style: none;
     float: right;
     font-size: 150%;
+    padding-right: 10px;
 }
 
 #nav-bar a {
@@ -34,7 +35,26 @@
 }
 
 #welcome {
-    margin-top: 100px;
+    color: white;
+    text-align: bottom left;
+    margin-left: 10px;
+    max-width: 200px;
+    background-color: grey;
+}
+
+.tile1 {
+    background-color: rgb(155, 229, 147); /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom right, rgb(255, 255, 255), rgba(155, 229, 147,1) );
+    height: 300px;
+}
+
+.tile2 {
+    background-image: linear-gradient(to top left, rgb(255, 255, 255), rgba(155, 229, 147,1) );
+    height: 300px;
+}
+
+#schedule {
+    height: 300px;
 }
 
 #meeting {
