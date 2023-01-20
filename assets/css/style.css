@@ -42,10 +42,32 @@
     background-color: grey;
 }
 
+
+#roses-image {
+    width: 50%;
+    height: 50%;
+}
+
+
+
+#girl-book {
+    width: 50%;
+    height: 50%;
+}
+
+
+#nuke {
+    width: 50%;
+    height: 50%;
+}
+
+
 .tile1 {
+    margin: 0;
     background-color: rgb(155, 229, 147); /* For browsers that do not support gradients */
     background-image: linear-gradient(to bottom right, rgb(255, 255, 255), rgba(155, 229, 147,0.75) );
-    height: 700px;
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
 }
 
 .tile1 p {
@@ -57,7 +79,8 @@
 }
 
 .tile2 {
-    background-image: linear-gradient(to top left, rgb(255, 255, 255), rgba(155, 229, 147,0.75) );
+    background: linear-gradient(to top left, rgb(255, 255, 255), rgba(155, 229, 147,0.75) );
+    margin: 0;
 }
 
 .tile2 p {
@@ -66,8 +89,20 @@
     margin-left: 10px;
     max-width: 500px;
     background-color: grey;
+    position: relative;
 }
 
+#dick {
+    position: absolute;
+    right: 20px;
+    width: 20%;
+}
+
+.tile3 {
+    margin: 0;
+    height: 600px;
+    background: linear-gradient(to top left, rgb(255, 255, 255), rgba(155, 229, 147,0.75) );
+}
 
 
 #meeting {
