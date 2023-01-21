@@ -66,17 +66,22 @@
     margin: 0;
     background-color: rgb(155, 229, 147); /* For browsers that do not support gradients */
     background-image: linear-gradient(to bottom right, rgb(255, 255, 255), rgba(155, 229, 147,0.75) );
-    display: grid;
-    grid-template-columns: 350px 350px 350px;
+    box-sizing: border-box;
+    display: flex;
 }
 
-.tile1 p {
-    color: white;
-    text-align: bottom left;
-    margin-left: 10px;
-    max-width: 500px;
-    background-color: grey;
+
+
+.news-image {
+    width: 100%;
+    margin: 0;
 }
+
+/*
+figcaption {
+    width: 275px;
+}
+*/
 
 .tile2 {
     background: linear-gradient(to top left, rgb(255, 255, 255), rgba(155, 229, 147,0.75) );
